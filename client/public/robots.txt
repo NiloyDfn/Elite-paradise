@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+# Private areas — nothing here is useful to a crawler.
+Disallow: /admin
+Disallow: /account
+Disallow: /checkout
+Disallow: /order/
+Disallow: /wishlist
+
+Sitemap: https://eliteparadise.com.bd/sitemap.xml
